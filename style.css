@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5DC;
+    color: #333;
+}
+
+/* Шапка */
+.header {
+    padding: 60px;
+    text-align: center;
+    background-color: #35535c;
+    color: white;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.header p {
+    font-size: 20px;
+}
+
+/* Навигационная панель */
+.navbar {
+    display: flex;
+    background-color: #333;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: #7d97ad;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    flex: 1;
+}
+
+/* Изменение цвета при наведении */
+.navbar a:hover {
+    background-color: #F5F5DC;
+    color: #d1d6e4;
+}
+
+/* Основная структура */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+/* Боковая панель */
+.side {
+    flex: 30%;
+    background-color: #35535c;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.side h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #E0FFFF
+}
+
+.side ul {
+    list-style: none;
+    padding: 0;
+}
+
+.side ul li {
+    margin: 10px 0;
+}
+
+.side a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.side a:hover {
+    color: #7d97ad;
+}
+
+/* Основной контент */
+.main {
+    flex: 70%;
+    background-color: #E0FFFF;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.main h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #7d97ad;
+}
+
+.main p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Контейнер для изображений */
+.image-container {
+    text-align: center;
+    margin-bottom: 15 }
+
+
+
+.footer {
+    text-align: center;
+    color: black;
+    size: 10px;
+}
